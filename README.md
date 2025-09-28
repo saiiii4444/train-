@@ -28,12 +28,17 @@ Both datasets were downloaded as CSV files, then aggregated by month using a sim
 2. **Create relationships:** If you wish to compare both services side by side, load `train_performance_monthly.csv` which already contains both regularity columns. Alternatively, import each dataset separately and create a relationship on the `date` field.
 3. **Build visualisations:** Use a “Line and clustered column chart” to plot `regularite_intercites` and `regularite_ter` over time. To show average punctuality, create a “Bar chart” and use the **Average of regularity** measure.
 4. **Add filters:** Power BI slicers can be used to filter by time period (e.g., 2019–2025) or to focus on a particular region or route if you decide to work with the detailed raw data.
-
-The accompanying images (`train_performance_trend.png` and `train_performance_average.png`) provide examples of the kind of dashboards you can create. I’ve also included the raw PNGs of the dashboards from my friend’s original report for completeness.
-
 ## Contact
 
 **Author:** Raju (Student, Antibes)  
 **Inspiration:** Adapted from a project by Harishankar Murugan  
 I hope this helps anyone looking to explore SNCF’s service performance using simple, transparent code and Power BI dashboards.
 
+
+## Dashboards
+
+Below are sample images of the Power BI dashboards created from this data.
+
+![Monthly regularity comparison](train_performance_trend.png)
+
+![Average regularity by service type](train_performance_average.png)
